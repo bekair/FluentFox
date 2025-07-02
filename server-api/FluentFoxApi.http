@@ -1,0 +1,6 @@
+@FluentFoxApi_HostAddress = http://localhost:5076
+
+GET {{FluentFoxApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
