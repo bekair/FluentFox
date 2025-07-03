@@ -58,4 +58,4 @@ Write-Host ""
 Write-Host "  ========================================" -ForegroundColor Cyan
 Write-Host ""
 
-dotnet run --project FluentFoxApi.csproj
+dotnet run
