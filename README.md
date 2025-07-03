@@ -14,13 +14,29 @@ FluentFox/
 
 ## Getting Started
 
-### Prerequisites
+### Quick Start (Recommended)
+
+Use the interactive menu to choose which application(s) to start:
+
+```powershell
+# PowerShell
+.\Scripts\Start-Menu.ps1
+
+# Or double-click
+.\Scripts\Run-Apps.bat
+```
+
+📖 **See [Development.md](Development.md) for detailed development guide**
+
+### Manual Setup
+
+#### Prerequisites
 
 - Node.js 18+ and npm/yarn
 - .NET 8 SDK
 - Git
 
-### Client App (Next.js)
+#### Client App (Next.js)
 
 ```bash
 cd client-app
@@ -30,7 +46,7 @@ npm run dev
 
 The client app will be available at `http://localhost:3000`
 
-### Server API (.NET)
+#### Server API (.NET)
 
 ```bash
 cd server-api
